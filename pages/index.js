@@ -10,6 +10,12 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>Ryuichi Komeda</h1>
+        <p>I'm a web engineer living and working in Tokyo.</p>
+        <ul className={styles.sns}>
+          <li><a href="/">GitHub</a></li>
+          <li><a href="/">Twitter</a></li>
+          <li><a href="/">Instagram</a></li>
+        </ul>
       </main>
     </div>
   )
